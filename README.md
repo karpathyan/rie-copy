@@ -27,7 +27,7 @@ sudo dpkg -i rie-copy.deb
 Run the script using the following command:
 
 ```bash
-./rie-copy <source_file1> <source_file2> ... <destination_directory>
+rie-copy <source_file1> <source_file2> ... <destination_directory>
 ```
 
 Replace `<source_file1>`, `<source_file2>`, etc., with the actual paths to the files you want to copy. The last argument should be the destination directory where the files will be copied.
@@ -43,7 +43,7 @@ The script will perform the following actions:
 ## Example
 
 ```bash
-./rie-copy file1.txt file2.txt destination_folder/
+rie-copy file1.txt file2.txt destination_folder/
 ```
 
 This command will copy `file1.txt` and `file2.txt` to the `destination_folder/`. If any file in the destination folder has the same name, the script will automatically rename the new file to avoid overwriting existing files.
