@@ -1,6 +1,6 @@
 
-# rie_copy
-rie_copy: replace if exists and copy, is a Bash tool that simplifies the process of copying multiple files to a destination directory, conveniently handling cases where files have the same name. When copying files to a destination directory, rie_copy automatically detects if a file with the same name already exists. In such cases, it  renames the new file by appending a unique number to the file name. For instance, if you're copying images named image1.png, image2.png, etc., to the directory /my_images/ where files with similar names already exist, rie_copy ensures that the new files are named as image1(1).png, image1(2).png, and so on, preventing any data loss or overwriting. 
+# rie-copy
+rie-copy: replace if exists and copy, is a Bash tool that simplifies the process of copying multiple files to a destination directory, conveniently handling cases where files have the same name. When copying files to a destination directory, rie_copy automatically detects if a file with the same name already exists. In such cases, it  renames the new file by appending a unique number to the file name. For instance, if you're copying images named image1.png, image2.png, etc., to the directory /my_images/ where files with similar names already exist, rie_copy ensures that the new files are named as image1(1).png, image1(2).png, and so on, preventing any data loss or overwriting. 
 With rie_copy, you can confidently copy files with ease, knowing that your existing files are preserved, and the new files are seamlessly managed.
  
 
@@ -8,7 +8,7 @@ With rie_copy, you can confidently copy files with ease, knowing that your exist
 Run the script using the following command:
 
 ```bash
-./rie_copy.sh <source_file1> <source_file2> ... <destination_directory>
+./rie-copy.sh <source_file1> <source_file2> ... <destination_directory>
 ```
 
 Replace `<source_file1>`, `<source_file2>`, etc., with the actual paths to the files you want to copy. The last argument should be the destination directory where the files will be copied.
@@ -24,7 +24,7 @@ The script will perform the following actions:
 ## Example
 
 ```bash
-./rie_copy.sh file1.txt file2.txt destination_folder/
+./rie-copy.sh file1.txt file2.txt destination_folder/
 ```
 
 This command will copy `file1.txt` and `file2.txt` to the `destination_folder/`. If any file in the destination folder has the same name, the script will automatically rename the new file to avoid overwriting existing files.
