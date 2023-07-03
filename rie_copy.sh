@@ -9,7 +9,7 @@ num_args=$#
 destination_dir="${!num_args}/"
 
 if [ $num_args -lt 2 ]; then
-    echo "Usage: ./copy_files.sh <source_file1> <source_file2> ... <destination_directory>"
+    echo "Usage: ./rie_copy.sh <source_file1> <source_file2> ... <destination_directory>"
     exit 1
 fi
 
