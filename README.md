@@ -50,6 +50,7 @@ This command will copy `file1.txt` and `file2.txt` to the `destination_folder/`.
 
 ## License
 
-This project is licensed under the [GPL3.0](LICENSE).
+This project is licensed under the [GPL3.0-or-later](LICENSE).
+# Licence (SPDX-License-Identifier): GPL-3.0-or-later
 ```
 
