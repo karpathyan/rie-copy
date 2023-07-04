@@ -2,7 +2,7 @@
 # rie_copy.sh
 # https://github.com/karpathyan/rie_copy
 # Rajgowrav Cheenikundil, Orebro University, Sweden
-# Licence: GPL 3.0
+# Licence (SPDX-License-Identifier): GPL-3.0-or-later
 
 
 num_args=$#
